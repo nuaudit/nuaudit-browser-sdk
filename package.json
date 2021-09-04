@@ -1,6 +1,6 @@
 {
   "name": "nuaudit-browser-sdk",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "Nuaudit Browser SDK",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/nuaudit/nuaudit-browser-sdk#readme",
   "dependencies": {
-    "nuaudit-browser-autogen": "^0.2.0"
+    "nuaudit-browser-autogen": "^0.3.0"
   }
 }

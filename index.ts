@@ -1,4 +1,4 @@
-import { createConfiguration, RecordsApi } from "nuaudit-browser-autogen"
+import { createConfiguration, RecordsApi, Record as NuauditRecord } from "nuaudit-browser-autogen"
 
 class Nuaudit {
     private recordsApi: RecordsApi;
@@ -19,7 +19,11 @@ class Nuaudit {
                 data: resource
             }
         })
-      }
+    }
+
+    async listRecords(): Promise<NuauditRecord[]> {
+        return this.recordsApi.listTrailRecords(this.organizationId, this.trailId)
+    }
 }
 
 export default Nuaudit;
