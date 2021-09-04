@@ -7,7 +7,7 @@
 ## Usage
 
 ```ts
-import Nuaudit from nuaudit-browser-sdk
+import Nuaudit from 'nuaudit-browser-sdk';
 
 const nuaudit = new Nuaudit(
     "API_KEY_SECRET",
