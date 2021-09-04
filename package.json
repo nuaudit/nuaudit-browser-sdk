@@ -1,0 +1,28 @@
+{
+  "name": "nuaudit-typescript-sdk",
+  "version": "0.2.0",
+  "description": "Nuaudit Typescript SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuaudit/nuaudit-typescript-sdk.git"
+  },
+  "keywords": [
+    "Nuaudit",
+    "SDK"
+  ],
+  "author": "support@nuaudit.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuaudit/nuaudit-typescript-sdk/issues"
+  },
+  "homepage": "https://github.com/nuaudit/nuaudit-typescript-sdk#readme",
+  "dependencies": {
+    "nuaudit-typescript-autogen": "^0.2.0"
+  }
+}
