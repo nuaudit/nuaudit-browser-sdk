@@ -1,8 +1,8 @@
-# nuaudit. Typescript SDK
+# nuaudit. Browser SDK
 
 ## Installation
 
-`yarn install nuaudit-typescript-sdk`
+`yarn install nuaudit-browser-sdk`
 
 ## Usage
 
@@ -13,22 +13,24 @@ const nuaudit = new Nuaudit(
     "TRAIL_ID"
 )
 
-nuaudit.createRecord(
-    "Added artwork to the gallery.",
-    {
-        "type": "human",
-        "id": "jane",
-        "name": "Jane",
-        "email": "jane@example.org",
-        "ipAddress": "127.0.0.1"
-    },
-    {
-        "type": "artwork",
-        "id": "thepainting",
-        "title": "The painting",
-        "material": "canvas",
-        "paint": "oil",
-        "year": 2018
-    }
-)
+(async () => {
+    await nuaudit.createRecord(
+        "Added artwork to the gallery.",
+        {
+            "type": "human",
+            "id": "jane",
+            "name": "Jane",
+            "email": "jane@example.org",
+            "ipAddress": "127.0.0.1"
+        },
+        {
+            "type": "artwork",
+            "id": "thepainting",
+            "title": "The painting",
+            "material": "canvas",
+            "paint": "oil",
+            "year": 2018
+        }
+    )
+)()
 ```

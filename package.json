@@ -1,7 +1,7 @@
 {
-  "name": "nuaudit-typescript-sdk",
+  "name": "nuaudit-browser-sdk",
   "version": "0.2.0",
-  "description": "Nuaudit Typescript SDK",
+  "description": "Nuaudit Browser SDK",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nuaudit/nuaudit-typescript-sdk.git"
+    "url": "git+https://github.com/nuaudit/nuaudit-browser-sdk.git"
   },
   "keywords": [
     "Nuaudit",
@@ -19,10 +19,10 @@
   "author": "support@nuaudit.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nuaudit/nuaudit-typescript-sdk/issues"
+    "url": "https://github.com/nuaudit/nuaudit-browser-sdk/issues"
   },
-  "homepage": "https://github.com/nuaudit/nuaudit-typescript-sdk#readme",
+  "homepage": "https://github.com/nuaudit/nuaudit-browser-sdk#readme",
   "dependencies": {
-    "nuaudit-typescript-autogen": "^0.2.0"
+    "nuaudit-browser-autogen": "^0.2.0"
   }
 }

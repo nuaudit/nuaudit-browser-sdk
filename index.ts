@@ -1,4 +1,4 @@
-import { createConfiguration, RecordsApi } from "nuaudit-typescript-autogen"
+import { createConfiguration, RecordsApi } from "nuaudit-browser-autogen"
 
 class Nuaudit {
     private recordsApi: RecordsApi;
@@ -9,8 +9,8 @@ class Nuaudit {
         }))
     }
 
-    createRecord(description: string, identity: Record<any, any>, resource: Record<any, any>): void {
-        this.recordsApi.createRecord(this.organizationId, this.trailId, {
+    async createRecord(description: string, identity: Record<any, any>, resource: Record<any, any>) {
+        await this.recordsApi.createRecord(this.organizationId, this.trailId, {
             description: description,
             identityRecord: {
                 data: identity
