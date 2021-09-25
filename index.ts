@@ -9,11 +9,11 @@ class Nuaudit {
         }))
     }
 
-    async createRecord(description: string, identity: Record<any, any>, resource: Record<any, any>) {
+    async createRecord(description: string, actor: Record<any, any>, resource: Record<any, any>) {
         await this.recordsApi.createRecord(this.organizationId, this.trailId, {
             description: description,
-            identityRecord: {
-                data: identity
+            actorRecord: {
+                data: actor
             },
             resourceRecord: {
                 data: resource

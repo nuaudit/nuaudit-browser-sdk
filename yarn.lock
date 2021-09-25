@@ -7,10 +7,10 @@ es6-promise@^4.2.4:
   resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
   integrity sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==
 
-nuaudit-browser-autogen@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/nuaudit-browser-autogen/-/nuaudit-browser-autogen-0.3.0.tgz#9253d083cd1f288dd6feb4620e4d8dfd704fdb34"
-  integrity sha512-NK748eH2LsyhBaY8BKu87WaQegWvxCtcv1VNfg+ED40+lQZ0J6pVweZfICgTdEU1AlMavwDGfSeibMxxP+ueUw==
+nuaudit-browser-autogen@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/nuaudit-browser-autogen/-/nuaudit-browser-autogen-0.17.0.tgz#3b4b043b87f31b8ae8d6fa7abb033c9b98900686"
+  integrity sha512-pWLkf/fNDO3VoztrYp/iiCuy6VfE/hsaLVIuXJ0Qw2CFHleTo8liIIk9/EJtGMTapTd9vIH4o9/yaHTmcUBgwQ==
   dependencies:
     es6-promise "^4.2.4"
     url-parse "^1.4.3"
