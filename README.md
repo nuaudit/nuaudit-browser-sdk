@@ -1,5 +1,3 @@
-# nuaudit. Browser SDK
-
 ## Installation
 
 `yarn install nuaudit-browser-sdk`
